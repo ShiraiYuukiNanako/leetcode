@@ -37,3 +37,6 @@ def lengthOfLongestSubstring(s: str):
                 visited[ord(s[j])] = True
         visited[ord(s[i])] = False
     return res
+
+def f(x):
+    return 100
